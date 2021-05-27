@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>gallery</title>
+  <meta name="description" content="gallery content">
+  <link rel="stylesheet" href="../asset/css/swiper-bundle.css">
+  <link rel="stylesheet" href="../asset/css/style.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+  <!--[if lt IE 9]>
+  <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+</head>
+<body class="subpage">
+ <div id="wrap">
+   <header id="header">
+      <!-- 헤더 영역  -->
+      <h1 id="top_logo"><a href="../index.html">Xwood</a></h1>
+      <nav id="top_nav">
+        <ul>
+          <li>
+            <a href="../company/introduce.html">Company</a>
+            <ul class="submenu">
+              <li><a href="../company/introduce.html">introduce</a></li>
+              <li><a href="../company/ci.html">ci</a></li>
+              <li><a href="../company/history.html">history</a></li>
+            </ul>
+          </li>
+          <li><a href="../product/product.html">Product</a></li>
+          <li><a href="../gallery/gallery.html">Gallery</a></li>
+          <li><a href="../community/notice.html">Community</a>
+            <ul class="submenu">
+              <li><a href="../community/notice.html">introduce</a></li>
+              <li><a href="../community/faq.html">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="../location/location.html">Location</a></li>
+        </ul>
+      </nav>
+   </header>
+   <main>
+     <!-- 컨텐츠 영역 -->
+     <div class="container">
+       <!-- 왼쪽메뉴 -->
+       <aside id="lnb">
+         <ul>
+           <li><a href="./gallery.html" class="on">Gallery</a></li>
+         </ul>
+       </aside>
+       <!-- 컨텐츠 본문 -->
+       <div class="content">
+         <h2 class="sub_title"><span>Gallery</span></h2>
+         <div class="inner">
+           <div
+                style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                class="swiper-container mySwiper2">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery01.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery02.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery03.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery04.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery05.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery06.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery07.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery08.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery07.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery07.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery01.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery02.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery03.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery04.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery05.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery06.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery07.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery08.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery07.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="../asset/img/gallery/gallery07.jpg" />
+              </div>
+            </div>
+            </div>
+         </div>
+       </div>
+     </div>
+   </main>
+   <!-- 하단 영역 -->
+   <footer id="footer">
+     <div class="footer_top">
+       <!-- footer 상단 영역 -->
+       <div class="container">
+         <div class="row">
+           <div class="column footer_logo">
+             <!-- footer logo -->
+             <h3>logo</h3>
+           </div>
+           <div class="column">
+             <!-- site map -->
+             <h4>site map</h4>
+             <ul>
+               <li><a href="../company/introduce.html">Company</a></li>
+               <li><a href="../product/product.html">Product</a></li>
+               <li><a href="../gallery/gallery.html">Gallery</a></li>
+               <li><a href="../community/notice.html">Community</a></li>
+               <li><a href="../location/location.html">Location</a></li>
+             </ul>
+           </div>
+           <div class="column">
+             <!-- contact us -->
+             <h4>contact us</h4>
+             <p>
+               A108 Adam street<br>
+               New York, NY 535022<br>
+               United states<br>
+               <strong>phone&nbsp;:&nbsp;</strong><a href="tel=+82-010-0000-0000">+82-010-0000-0000</a><br>
+               <strong>Email&nbsp;:&nbsp;</strong><a href="mailto=mymail@naver.com">mymail@naver.com</a><br>
+             </p>
+           </div>
+           <div class="column news">
+             <!-- news -->
+             <h4>news</h4>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet,
+               consectetur adipisicing elit
+             </p>
+             <form action="">
+               <input type="search" name="search">
+               <input type="submit" value="search">
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="container">
+       <!-- footer 하단 영역 -->
+       <div class="coypyright">
+         ⓒcopryright <strong>mypage</strong> .All Rights Reserved.
+       </div>
+       <div class="credits">
+         Designed By <a href="mailto:mymail@naver.com">My Name</a>
+       </div>
+     </div>
+   </footer>
+ </div>
+ <script type="text/javascript" src="./js/swiper-bundle.js"></script>
+ <script type="text/javascript">
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+ </script>
+</body>
+</html>
