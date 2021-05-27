@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="../asset/css/style.css">
   <script type="text/javascript" src="../js/jquery.min.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=44413ad96d02c7b4d6eaa083497c23fe"></script>
   <!--[if lt IE 9]>
   <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -52,7 +51,7 @@
        <div class="content">
          <h2 class="sub_title"><span>Location</span></h2>
          <div class="inner">
-            <div id="map" style="width:100%;height:350px;"></div>
+            <div id="map" style="width:500px;height:350px;"></div>
          </div>
        </div>
      </div>
@@ -116,7 +115,8 @@
      </div>
    </footer>
  </div>
-    <script defer>
+   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=44413ad96d02c7b4d6eaa083497c23fe"></script>
+    <script>
         var mapContainer = document.getElementById('map'), // 지도를 표시할 div
             mapOption = {
                 center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
