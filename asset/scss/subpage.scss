@@ -56,7 +56,12 @@
         padding-top: 50px;
         border-top: 1px solid $borderColorPrimary;
       }
-
+      &.kakao_map{
+        margin-top : 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       table{
         margin-top: 50px;
         & + .gbtn{
@@ -67,6 +72,7 @@
       .box{
         flex-wrap: wrap;
       }
+
     }
   }
 }
